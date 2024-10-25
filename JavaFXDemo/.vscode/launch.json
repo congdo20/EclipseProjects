@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "StackPaneDemo",
+            "request": "launch",
+            "mainClass": "laptrinhnangcao.StackPaneDemo",
+            "projectName": "JavaFXDemo_b9ea1571"
+        },
+        {
+            "type": "java",
+            "name": "ButtonInPane",
+            "request": "launch",
+            "mainClass": "laptrinhnangcao.ButtonInPane",
+            "projectName": "JavaFXDemo_b9ea1571"
+        },
+        {
+            "type": "java",
+            "name": "MyJavaFX",
+            "request": "launch",
+            "mainClass": "laptrinhnangcao.MyJavaFX",
+            "projectName": "JavaFXDemo_b9ea1571"
+        },
+        {
+            "type": "java",
+            "name": "ContactsApp",
+            "request": "launch",
+            "mainClass": "laptrinhnangcao.ContactsApp",
+            "projectName": "JavaFXDemo_b9ea1571",
+            "vmArgs": "--module-path \"/Users/trinhdo/Documents/EclipseProjects/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"/Users/trinhdo/Documents/EclipseProjects/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
