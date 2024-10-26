@@ -1,11 +1,22 @@
+# Bỏ qua các thư mục SDK và các tệp kết nối MySQL
 javafx-sdk-23.0.1/
 mysql-connector-j-9.0.0/
+mysql-connector-j-*/
+javafx-sdk-*/
+
+# Bỏ qua các tệp hệ thống và định dạng tài liệu
 .DS_Store
 *.docx
 *.pdf
-mysql-connector-j-*/
-javafx-sdk-*/
-*.docx
-*.pdf
+
+# Bỏ qua các phiên bản bộ JDK khác nhau của Zulu
 zulu21.38.21-ca-fx-jdk21.0.5-win_x64/
 zulu*/
+
+# Bỏ qua các tệp metadata của Eclipse
+.metadata/
+*.log
+.classpath
+.project
+.settings/
+
