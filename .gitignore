@@ -20,3 +20,6 @@ zulu*/
 .project
 .settings/
 
+# Bỏ qua tất cả các thư mục .metadata ở mọi cấp
+**/.metadata/
+
